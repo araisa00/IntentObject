@@ -21,18 +21,18 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Book1> bookList= new ArrayList<>();
 
         Intent i = new Intent(this, to.msn.wings.intentobject.SubActivity.class);
-        EditText txtTitle = this.findViewById(R.id.txtTitle);
-        EditText txtPublish = this.findViewById(R.id.txtPublish);
-        EditText txtPrice = this.findViewById(R.id.txtPrice);
-        //Book b = new Book(
+//        EditText txtTitle = this.findViewById(R.id.txtTitle);
+//        EditText txtPublish = this.findViewById(R.id.txtPublish);
+//        EditText txtPrice = this.findViewById(R.id.txtPrice);
+//        Book b = new Book(
 //            txtTitle.getText().toString(),
 //            txtPublish.getText().toString(),
 //            txtPrice.getText().toString()
 //        );
 
         bookList.add( new Book1("aa","aaaa","1"));
-        bookList.add( new Book1("bb","bbbb","2"));
-        bookList.add( new Book1("cc","cccc","3"));
+//        bookList.add( new Book1("bb","bbbb","2"));
+//        bookList.add( new Book1("cc","cccc","3"));
         bookList.add( new Book1("dd","dddd","4"));
         bookList.add( new Book1("ee","eeee","5"));
 
