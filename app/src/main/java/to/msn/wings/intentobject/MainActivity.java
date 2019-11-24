@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent i = new Intent(this, to.msn.wings.intentobject.SubActivity.class);
         EditText txtTitle = this.findViewById(R.id.txtTitle);
-//        EditText txtPublish = this.findViewById(R.id.txtPublish);
+        EditText txtPublish = this.findViewById(R.id.txtPublish);
 //        EditText txtPrice = this.findViewById(R.id.txtPrice);
 //        Book b = new Book(
 //            txtTitle.getText().toString(),
