@@ -24,11 +24,11 @@ public class MainActivity extends AppCompatActivity {
         EditText txtTitle = this.findViewById(R.id.txtTitle);
         EditText txtPublish = this.findViewById(R.id.txtPublish);
         EditText txtPrice = this.findViewById(R.id.txtPrice);
-//        Book b = new Book(
-//            txtTitle.getText().toString(),
-//            txtPublish.getText().toString(),
-//            txtPrice.getText().toString()
-//        );
+        Book b = new Book(
+            txtTitle.getText().toString(),
+            txtPublish.getText().toString(),
+            txtPrice.getText().toString()
+        );
 
         bookList.add( new Book1("aa","aaaa","1"));
         bookList.add( new Book1("bb","bbbb","2"));
