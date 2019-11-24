@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
 //        );
 
         bookList.add( new Book1("aa","aaaa","1"));
-//        bookList.add( new Book1("bb","bbbb","2"));
-//        bookList.add( new Book1("cc","cccc","3"));
+        bookList.add( new Book1("bb","bbbb","2"));
+        bookList.add( new Book1("cc","cccc","3"));
         bookList.add( new Book1("dd","dddd","4"));
         bookList.add( new Book1("ee","eeee","5"));
 
